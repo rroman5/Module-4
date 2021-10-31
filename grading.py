@@ -39,6 +39,15 @@ elif avg >= 80 and avg < 90:
     letter_grade = "B"
 elif avg > 69 and avg < 80:
     letter_grade = "C"
+
+''' 
+70-79 :C, 60-69: D, 0-59:F
+
+elif avg <= 60 and avg < 70:
+    letter_grade = "D"
+elif avg <= 0 and avg < 60:
+    letter_grade = "F"
+'''        
 elif avg <= 69 and avg >= 65:
     letter_grade = "D"
 else:
@@ -51,6 +60,9 @@ print("Average: " + str(avg))
 
 print("Grade: " + letter_grade)
 
+'''
+if letter_grade == "F" :
+'''
 if letter_grade is "F":
     print("Student is failing.")
 else:
